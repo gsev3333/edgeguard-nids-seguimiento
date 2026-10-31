@@ -22,10 +22,8 @@
 13. [Explicación completa para el profesor](#13-explicación-completa-para-el-profesor)
 14. [Guía paso a paso para reproducir todo (comandos exactos)](#14-guía-paso-a-paso-para-reproducir-todo-comandos-exactos)
 15. [Archivos creados / ejecutados](#15-archivos-creados-ejecutados)
-16. [Repositorio](#16-repositorio)
 
 ---
-
 ## 1. ¿QUÉ ES EDGEGUARD?
 
 EdgeGuard es un Sistema de Detección de Intrusiones en Red (NIDS) orientado al **borde de la red (Edge AI)**. Utiliza una Red Neuronal Convolucional Unidimensional (**1D-CNN**), entrenada con tráfico de red, cuantizada a **INT8** y pensada para desplegarse sobre un **Google Coral Edge TPU** conectado a una **Raspberry Pi 4**.
@@ -297,10 +295,4 @@ evidencias/reales/benchmark_tflite_results.json -> Resultados en JSON
 
 ---
 
-## 16. REPOSITORIO
 
-Todos los archivos, scripts y este README están disponibles aquí:
-
-[https://github.com/gsev3333/edgeguard-nids-seguimiento](https://github.com/gsev3333/edgeguard-nids-seguimiento)
-
-Este README es la fuente única de verdad para revisar el trabajo y replicarlo paso a paso.
