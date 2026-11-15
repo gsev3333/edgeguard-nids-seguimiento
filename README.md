@@ -23,7 +23,7 @@ El flujo técnico reproducible es:
 
 Una conversión TFLite INT8 no demuestra por sí misma que el modelo haya sido compilado para Edge TPU ni que se esté ejecutando en ese acelerador.
 
-El propósito, funcionamiento de cada componente, etapas siguientes, viabilidad y escenario previsto de aplicación se desarrollan en [Plan de aplicación y viabilidad](docs/PLAN_APLICACION_Y_VIABILIDAD.md). Es una propuesta técnica para preparar el informe de práctica; el lugar, presupuesto, calendario y beneficiarios institucionales deben confirmarse con la Universidad y el escenario de práctica.
+El propósito, funcionamiento de cada componente, etapas siguientes, viabilidad y escenario previsto de aplicación se desarrollan en [Plan de aplicación y viabilidad](docs/PLAN_APLICACION_Y_VIABILIDAD.md). El informe de intervención con los apartados académicos solicitados y formato APA 7 está en [Informe APA EdgeGuard](docs/Informe_APA_EdgeGuard.docx). El lugar, presupuesto, calendario y beneficiarios institucionales deben confirmarse con la Universidad y el escenario de práctica.
 
 ## Alcance y estado de los componentes
 
