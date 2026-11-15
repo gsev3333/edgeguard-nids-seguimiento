@@ -1,0 +1,64 @@
+{
+  "threshold_selection": "maximum validation F1 subject to the target attack recall",
+  "validation_fraction": 0.1,
+  "validation_samples": 226230,
+  "target_attack_recall": 0.95,
+  "threshold": 0.05979137122631073,
+  "validation_precision": 0.8131611458574628,
+  "validation_attack_recall": 0.9500022551982319,
+  "validation_f1": 0.8762715037547064,
+  "test_samples": 565576,
+  "test": {
+    "classification_report": {
+      "BENIGN": {
+        "precision": 0.9867237451564727,
+        "recall": 0.946812983610888,
+        "f1-score": 0.9663564588678838,
+        "support": 454265.0
+      },
+      "ATTACK": {
+        "precision": 0.8136947218259629,
+        "recall": 0.9480105290582242,
+        "f1-score": 0.8757323773008681,
+        "support": 111311.0
+      },
+      "accuracy": 0.9470486725037838,
+      "macro avg": {
+        "precision": 0.9002092334912177,
+        "recall": 0.9474117563345561,
+        "f1-score": 0.921044418084376,
+        "support": 565576.0
+      },
+      "weighted avg": {
+        "precision": 0.9526699069173282,
+        "recall": 0.9470486725037838,
+        "f1-score": 0.948520735387209,
+        "support": 565576.0
+      }
+    },
+    "roc_auc": 0.9888904874769322,
+    "confusion_matrix": [
+      [
+        430104,
+        24161
+      ],
+      [
+        5787,
+        105524
+      ]
+    ]
+  },
+  "test_baseline_threshold_0_5": {
+    "attack_f1": 0.7862484509209008,
+    "confusion_matrix": [
+      [
+        451964,
+        2301
+      ],
+      [
+        37715,
+        73596
+      ]
+    ]
+  }
+}

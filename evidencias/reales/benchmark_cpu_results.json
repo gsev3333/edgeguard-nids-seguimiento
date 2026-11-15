@@ -1,0 +1,34 @@
+{
+  "device": "cpu",
+  "model": "models_real\\edgeguard_int8.tflite",
+  "samples": 1000,
+  "warmup": 10,
+  "seed": 42,
+  "threshold": 0.05979137122631073,
+  "class_order": [
+    "BENIGN",
+    "ATTACK"
+  ],
+  "accuracy": 0.931,
+  "precision": 0.9423076923076923,
+  "recall": 0.7101449275362319,
+  "f1": 0.8099173553719008,
+  "roc_auc": 0.9549500155344774,
+  "latency_ms_mean": 0.043034799998622475,
+  "latency_ms_median": 0.037600000268867007,
+  "latency_ms_p95": 0.0622050001993557,
+  "latency_ms_std": 0.011039586441929662,
+  "throughput_inferences_per_second": 23237.00818946549,
+  "confusion_matrix": [
+    [
+      784,
+      9
+    ],
+    [
+      60,
+      147
+    ]
+  ],
+  "python": "3.12.10",
+  "platform": "Windows-11-10.0.26200-SP0"
+}

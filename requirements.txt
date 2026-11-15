@@ -1,0 +1,11 @@
+# EdgeGuard: CIC-IDS-2017 preprocessing, 1D-CNN training and evaluation
+numpy>=1.26
+pandas>=2.2
+scikit-learn>=1.4
+joblib>=1.3
+tensorflow>=2.16
+matplotlib>=3.8
+seaborn>=0.13
+
+# PyCoral, tflite-runtime and edgetpu_compiler are platform-specific;
+# install them separately on the Coral target.

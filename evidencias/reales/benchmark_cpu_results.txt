@@ -1,0 +1,14 @@
+EdgeGuard benchmark (cpu)
+Model: models_real\edgeguard_int8.tflite
+Samples: 1000; warm-up: 10; threshold: 0.05979137122631073
+Accuracy: 0.931000
+Precision: 0.942308
+Recall: 0.710145
+F1: 0.809917
+ROC AUC: 0.9549500155344774
+Mean latency (ms): 0.0430
+Median latency (ms): 0.0376
+P95 latency (ms): 0.0622
+Throughput (inferences/s): 23237.01
+Confusion matrix [BENIGN, ATTACK]: [[784, 9], [60, 147]]
+Platform: Windows-11-10.0.26200-SP0
