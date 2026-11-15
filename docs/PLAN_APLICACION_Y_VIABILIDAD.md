@@ -76,7 +76,7 @@ Construir y evaluar un prototipo de clasificación binaria de flujos de red en e
 | 4. Compatibilidad Coral | Instalar herramientas en Linux compatible, compilar, inspeccionar operaciones asignadas y ejecutar PyCoral. | Pendiente. | Log del compilador, archivo compilado y verificación del delegado Edge TPU. |
 | 5. Entrada de tráfico real | Configurar TAP/SPAN en laboratorio, extraer características, aplicar el mismo escalador y comparar con referencia. | Pendiente. | Registros trazables de flujos benignos y pruebas autorizadas, sin acciones de bloqueo. |
 | 6. Alertas y piloto | Emitir alertas consultivas, medir falsos avisos, tiempos, consumo y estabilidad por periodo. | Pendiente. | Evidencia reproducible del piloto y evaluación posterior frente a línea base. |
-| 7. Cierre académico | Analizar resultados, documentar fallos, limitaciones, recursos, costos y recomendaciones. | Parcial; documentación técnica actualizada. | Informe APA final con datos institucionales confirmados y anexos de evidencia. |
+| 7. Cierre del proyecto | Analizar resultados, documentar fallos, limitaciones, recursos, costos y recomendaciones; consolidar las evidencias de las pruebas. | Parcial; documentación técnica actualizada. | Informe de cierre del proyecto con datos institucionales confirmados y anexos de evidencia. |
 
 Las etapas se ejecutan en ese orden: no conviene probar tráfico en vivo antes de asegurar el formato de 78 características, autorización del sitio y compatibilidad del modelo con el hardware. Las fechas, duración y horas no se fijan aquí porque no se ha recibido el calendario aprobado de práctica.
 
