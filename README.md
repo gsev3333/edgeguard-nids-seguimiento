@@ -210,11 +210,6 @@ python src/inference/benchmark_tflite.py --tflite models_real/edgeguard_int8.tfl
 
 ---
 
-## 13. EXPLICACIÓN COMPLETA PARA EL PROFESOR
-
-**¿Qué se hizo?**  
-Se validó el pipeline EdgeGuard con datos sintéticos y luego se migró todo el flujo a **CIC-IDS-2017 real**: procesamiento, reentrenamiento de la 1D-CNN, conversión a TFLite INT8 y preparación de benchmark para inferencia documentada con **F1 y latencia**.
-
 **¿Por qué se hizo?**  
 Porque el seguimiento solicitaba evidencias reales (no sintéticas), conversión para TPU y una prueba de inferencia documentada con F1 y latencia.
 
